@@ -3,13 +3,13 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
-    { "",       PATH("spotify.sh"),  0,              5 },
+    { "    ",       PATH("spotify.sh"),  0,              5 },
 
     { "",       PATH("filesystem.sh"),  0,              4 },
 
     { "",       PATH("battery.sh"),  0,              3 },
 
-    { "",       PATH("keyboard.sh"),  0,              2 },
+    { " ",       PATH("keyboard.sh"),  0,              2 },
 
     { "📅 ",    PATH("date.sh"),     0,                  1 },
 
@@ -17,7 +17,7 @@ static const Block blocks[] = {
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
-static const char *delim = " | ";
+static const char *delim = "  |  ";
 
 // Have dwmblocks automatically recompile and run when you edit this file in
 // vim with the following line in your vimrc/init.vim:
