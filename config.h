@@ -3,11 +3,11 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
-    { "    ",       PATH("spotify.sh"),  0,              5 },
+    { "    ",       PATH("spotify.sh"),  1,              5 },
 
-    { "",       PATH("filesystem.sh"),  0,              4 },
+    { "",       PATH("filesystem.sh"),  1800,              4 },
 
-    { "",       PATH("battery.sh"),  0,              3 },
+    { "",       PATH("battery.sh"),  5,              3 },
 
     { " ",       PATH("keyboard.sh"),  0,              2 },
 
