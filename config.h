@@ -5,7 +5,7 @@ static const Block blocks[] = {
 
     { "    ",       PATH("spotify.sh"),  1,              5 },
 
-    { "",       PATH("filesystem.sh"),  1800,              4 },
+    { "📦 ",       PATH("packages.sh"),  0,              4 },
 
     { "",       PATH("battery.sh"),  5,              3 },
 
