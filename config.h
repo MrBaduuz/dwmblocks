@@ -5,7 +5,7 @@ static const Block blocks[] = {
 
     { "    ",       PATH("spotify.sh"),  1,              7 },
 
-    { "📦 ",       PATH("packages.sh"),  0,              6 },
+    { " ",       PATH("packages.sh"),  0,              6 },
 
     { "",       PATH("battery.sh"),  5,              5 },
 
@@ -13,9 +13,9 @@ static const Block blocks[] = {
 
     { "",       PATH("volume.sh"),  1,              3 },
 
-    { "📅 ",    PATH("date.sh"),     0,                  1 },
+    { " ",    PATH("date.sh"),     0,                  1 },
 
-    { "🕐 ",    PATH("clock.sh"),   10,                1 },
+    { " ",    PATH("clock.sh"),   10,                1 },
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
