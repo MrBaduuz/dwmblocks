@@ -3,7 +3,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
-    { "    ",       PATH("spotify.sh"),  1,              7 },
+    { "  ",       PATH("spotify.sh"),  1,              7 },
 
     { " ",       PATH("packages.sh"),  0,              6 },
 
